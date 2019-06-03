@@ -1,0 +1,15 @@
+D:\Test Job\TestJopApp\AreaDLL\bin\Debug\AreaDLL.dll
+D:\Test Job\TestJopApp\AreaDLL\bin\Debug\AreaDLL.pdb
+D:\Test Job\TestJopApp\AreaDLL\bin\Debug\nunit.framework.dll
+D:\Test Job\TestJopApp\AreaDLL\bin\Debug\nunit.framework.pdb
+D:\Test Job\TestJopApp\AreaDLL\bin\Debug\nunit.framework.xml
+D:\Test Job\TestJopApp\AreaDLL\obj\Debug\AreaDLL.csprojAssemblyReference.cache
+D:\Test Job\TestJopApp\AreaDLL\obj\Debug\AreaDLL.csproj.CoreCompileInputs.cache
+D:\Test Job\TestJopApp\AreaDLL\obj\Debug\AreaDLL.csproj.CopyComplete
+D:\Test Job\TestJopApp\AreaDLL\obj\Debug\AreaDLL.dll
+D:\Test Job\TestJopApp\AreaDLL\obj\Debug\AreaDLL.pdb
+D:\Test Job\TestJopApp\AreaDLL\bin\Debug\NUnit3.TestAdapter.dll
+D:\Test Job\TestJopApp\AreaDLL\bin\Debug\NUnit3.TestAdapter.pdb
+D:\Test Job\TestJopApp\AreaDLL\bin\Debug\nunit.engine.dll
+D:\Test Job\TestJopApp\AreaDLL\bin\Debug\nunit.engine.api.dll
+D:\Test Job\TestJopApp\AreaDLL\bin\Debug\Mono.Cecil.dll
