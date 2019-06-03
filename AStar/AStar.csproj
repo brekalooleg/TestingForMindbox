@@ -1,0 +1,92 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="14.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{874EF521-A324-4CF3-A1DD-16D3AFDE0C60}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>AStarSourse</RootNamespace>
+    <AssemblyName>AStarSourse</AssemblyName>
+    <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AStarAlgo.cs" />
+    <Compile Include="CoordFind\SquereMatrix\SquareMatrixEdges.cs" />
+    <Compile Include="CoordFind\SquereSearchers\SearcherEdges.cs" />
+    <Compile Include="Graph.cs" />
+    <Compile Include="Path.cs" />
+    <Compile Include="Sources\AStarDatabaseSource.cs" />
+    <Compile Include="Sources\AStarMapFileSource.cs" />
+    <Compile Include="Sources\AStarMemorySource.cs" />
+    <Compile Include="Sources\EdgeFromSource.cs" />
+    <Compile Include="EdgeInWork.cs" />
+    <Compile Include="RouteResult.cs" />
+    <Compile Include="Sources\IAstarSource.cs" />
+    <Compile Include="Sources\NodeFromSource.cs" />
+    <Compile Include="NodeInWork.cs" />
+    <Compile Include="OpenListValue.cs" />
+    <Compile Include="CoordFind\FunctionSets\Astar2DFunctionSet.cs" />
+    <Compile Include="CoordFind\FunctionSets\Astar3DFunctionSet.cs" />
+    <Compile Include="CoordFind\DecardPoint.cs" />
+    <Compile Include="CoordFind\FunctionSets\IAstarFunctionSet.cs" />
+    <Compile Include="CoordFind\IndexSquere.cs" />
+    <Compile Include="IPoint.cs" />
+    <Compile Include="IRoad.cs" />
+    <Compile Include="CoordFind\GeoPoint.cs" />
+    <Compile Include="CoordFind\LatLonConvert.cs" />
+    <Compile Include="DropOnEdge.cs" />
+    <Compile Include="CoordFind\SquereSearchers\SearcherBase.cs" />
+    <Compile Include="CoordFind\SimpleRoad.cs" />
+    <Compile Include="CoordFind\SquereSearchers\SearcerNodes.cs" />
+    <Compile Include="CoordFind\SimplePoint.cs" />
+    <Compile Include="CoordFind\SquereMatrix\SquareMatrixBase.cs" />
+    <Compile Include="CoordFind\SquereMatrix\SquareMatrixNodes.cs" />
+    <Compile Include="CoordFind\Vector.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="RoadInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Псевдокод AStar.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <WCFMetadata Include="Service References\" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

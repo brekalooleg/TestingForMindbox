@@ -1,0 +1,12 @@
+C:\A Star Stuff\A star Short Road\AStar\bin\Debug\AStarSourse.dll
+C:\A Star Stuff\A star Short Road\AStar\bin\Debug\AStarSourse.pdb
+C:\A Star Stuff\A star Short Road\AStar\obj\Debug\AStarSourse.dll
+C:\A Star Stuff\A star Short Road\AStar\obj\Debug\AStarSourse.pdb
+C:\A Star Stuff\A star Short Road\AStar\obj\Debug\AStar.csprojResolveAssemblyReference.cache
+C:\A Star Stuff\A star Short Road\AStar\bin\Debug\CoordFind.dll
+C:\A Star Stuff\A star Short Road\AStar\bin\Debug\CoordFind.pdb
+C:\A Star Stuff\A star Short Road\src\AStar\bin\Debug\AStarSourse.dll
+C:\A Star Stuff\A star Short Road\src\AStar\bin\Debug\AStarSourse.pdb
+C:\A Star Stuff\A star Short Road\src\AStar\obj\Debug\AStarSourse.dll
+C:\A Star Stuff\A star Short Road\src\AStar\obj\Debug\AStarSourse.pdb
+C:\A Star Stuff\A star Short Road\src\AStar\obj\Debug\AStar.csprojResolveAssemblyReference.cache
