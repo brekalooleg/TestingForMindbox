@@ -1,0 +1,3 @@
+Select p_name, c_name
+From t_products left join t_categories
+On t_products.p_name = t_categories.c_name
